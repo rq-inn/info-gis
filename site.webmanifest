@@ -1,0 +1,29 @@
+{
+  "name": "GloranthaGIS Information",
+  "short_name": "GloranthaGIS",
+  "description": "GloranthaGIS の特徴、導入手順、デモ動画、関連ガイドをまとめた情報ページです。",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#07111f",
+  "theme_color": "#0b162b",
+  "lang": "ja",
+  "icons": [
+    {
+      "src": "images/pwa/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "images/pwa/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "images/pwa/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

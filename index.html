@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="google-site-verification" content="80PopSLcO5vUmIh9BZhPP0-biCyDDCKmjeIUDS7PxMM">
+  <meta name="theme-color" content="#0b162b">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="GloranthaGIS">
+  <link rel="canonical" href="https://rq-inn.com/">
+  <title id="page-title">GloranthaGIS Information | RQ Adventurers' Inn</title>
+  <meta
+    id="meta-description"
+    name="description"
+    content="GloranthaGIS の特徴、使いどころ、導入の流れ、ガイド、デモ動画をまとめたインフォメーションページです。"
+  >
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Noto+Sans+JP:wght@400;500;700&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="preload" href="font/GloranthaCoreRunes1.5.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="icon" type="image/png" sizes="32x32" href="images/pwa/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/pwa/favicon-16.png">
+  <link rel="shortcut icon" href="images/pwa/favicon-32.png">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="images/pwa/apple-touch-icon.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="hero">
+      <div class="hero__stars" aria-hidden="true"></div>
+      <div class="hero__glow hero__glow--left" aria-hidden="true"></div>
+      <div class="hero__glow hero__glow--right" aria-hidden="true"></div>
+
+      <div class="topbar">
+        <a class="brand" href="https://rq-inn.com/" target="_blank" rel="noreferrer">
+          <img class="brand__logo" src="images/branding/rq-inn-logo.png" alt="RQ Adventurers' Inn">
+          <span class="brand__copy">RQ Adventurers' Inn</span>
+        </a>
+        <div class="language-switcher">
+          <label class="language-switcher__label" for="language-select" data-i18n="languageLabel">Language</label>
+          <select id="language-select" class="language-switcher__select" aria-label="Language selector">
+            <option value="ja">日本語</option>
+            <option value="en">English</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="hero__content">
+        <div class="hero__copy">
+          <p class="eyebrow" data-i18n="heroEyebrow">Cosmic Promotion</p>
+          <h1 data-i18n="heroTitle">GloranthaGIS</h1>
+          <p class="hero__lead" data-i18n="heroLead">地図は「見るもの」じゃない。遊ぶものだ。</p>
+          <p class="hero__text" data-i18n="heroText1">
+            距離を測る。土地を知る。セッションの現実感が変わる。
+          </p>
+          <p class="hero__text" data-i18n="heroText2">
+            ドラゴン・パスやプラックスは、眺める背景ではなく、卓上で判断と会話を生むプレイ空間になります。
+          </p>
+          <p class="hero__text" data-i18n="heroText3">
+            まずはプロモーションを一巡して、そのままいつもの Adventurers' Inn へどうぞ。
+          </p>
+          <a class="info-card" href="https://rq-inn.com/info-gis/" target="_blank" rel="noreferrer">
+            <p class="info-card__eyebrow" data-i18n="infoCardEyebrow">Information</p>
+            <h2 class="info-card__title" data-i18n="infoCardTitle">ご案内</h2>
+            <img class="info-card__icon" src="images/apps/GloranthaGIS-icon-512.png" alt="GloranthaGIS information icon">
+            <p class="info-card__link" data-i18n="infoCardLink">rq-inn.com / info-gis /</p>
+          </a>
+          <div class="hero__actions">
+            <a class="button button--primary" href="https://rq-inn.com/g-gis/" target="_blank" rel="noreferrer" data-i18n="heroPrimaryAction">アプリを開く</a>
+            <a class="button button--secondary" href="#demo" data-i18n="heroSecondaryAction">動画を見る</a>
+            <a class="button button--ghost" href="https://rq-inn.com/" target="_blank" rel="noreferrer" data-i18n="heroTertiaryAction">宿へ入る</a>
+          </div>
+          <div class="hero__links">
+            <a class="text-link text-link--inline" href="https://note.com/mofumofu1011/n/nb00fbd6ac9d5?app_launch=false" target="_blank" rel="noreferrer" data-i18n="heroJapaneseGuide">日本語解説</a>
+            <a class="text-link text-link--inline" href="https://note.com/mofumofu1011/n/nf05c11a7ed1a?app_launch=false" target="_blank" rel="noreferrer" data-i18n="heroEnglishGuide">英語・その他言語</a>
+          </div>
+        </div>
+
+        <div class="hero__panel">
+          <div class="hero__icon-frame">
+            <span class="hero__ring hero__ring--outer" aria-hidden="true"></span>
+            <span class="hero__ring hero__ring--inner" aria-hidden="true"></span>
+            <img class="hero__icon" src="images/apps/GloranthaGIS-icon-512.png" alt="GloranthaGIS icon">
+          </div>
+          <div class="signal-card">
+            <p class="signal-card__label" data-i18n="signalLabel">Featured Tool</p>
+            <h2 data-i18n="signalTitle">GloranthaGIS</h2>
+            <p data-i18n="signalText">地名検索、距離計測、範囲表示、PNG地図読込で、セッション中の地理判断を素早く共有できます。</p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="content">
+      <section id="demo" class="section section--video">
+        <div class="section__heading section__heading--wide">
+          <p class="section__label" data-i18n="demoLabel">Demo Movie</p>
+          <h2 data-i18n="demoTitle">遊ぶ前に、世界が動く感覚を見せる。</h2>
+          <p class="section__lead" data-i18n="demoLead">スクロール前の短い動画で、このアプリが何を変えるのかを一目で伝えます。</p>
+        </div>
+        <div class="video-layout">
+          <div class="video-frame">
+            <iframe
+              src="https://www.youtube.com/embed/WQ8gYwdzwUY"
+              title="GloranthaGIS Demo"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen>
+            </iframe>
+          </div>
+          <div class="video-copy">
+            <p data-i18n="demoBody">短く見ても、GloranthaGIS が卓の判断と会話をどう支えるかが伝わる構成です。</p>
+            <a class="text-link" href="https://www.youtube.com/embed/WQ8gYwdzwUY" target="_blank" rel="noreferrer" data-i18n="demoAction">YouTube で開く</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section__heading">
+          <p class="section__label" data-i18n="featuresLabel">What You Can Do</p>
+          <h2 data-i18n="featuresTitle">地図を、ただの画像ではなくプレイ面に変える。</h2>
+          <p class="section__lead" data-i18n="featuresLead">GloranthaGIS は地理情報を、卓のみんなが読んで判断できる情報に変換します。</p>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-card">
+            <h3 data-i18n="feature1Title">Place Jump</h3>
+            <p data-i18n="feature1Text">日本語でも英語でも地名検索して、その場所へすぐにジャンプできます。</p>
+          </article>
+          <article class="feature-card">
+            <h3 data-i18n="feature2Title">Distance Measurement</h3>
+            <p data-i18n="feature2Text">ルートを引いて、地点間の距離を実感のある長さで確認できます。</p>
+          </article>
+          <article class="feature-card">
+            <h3 data-i18n="feature3Title">Range Circle</h3>
+            <p data-i18n="feature3Text">半径ツールで移動圏、勢力圏、効果範囲を視覚化できます。</p>
+          </article>
+          <article class="feature-card">
+            <h3 data-i18n="feature4Title">Layer View</h3>
+            <p data-i18n="feature4Text">PNG地図を読み込み、ズーム、ドラッグ、レイヤー感覚で世界を見渡せます。</p>
+          </article>
+          <article class="feature-card">
+            <h3 data-i18n="feature5Title">Distance Origin Flag</h3>
+            <p data-i18n="feature5Text">青い基準旗を置いて、画面中心からの南北東西距離を読み取れます。</p>
+          </article>
+          <article class="feature-card">
+            <h3 data-i18n="feature6Title">Built For Play</h3>
+            <p data-i18n="feature6Text">実際のセッション中に使うことで、移動や地理の感覚が一気に具体的になります。</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section section--accent">
+        <div class="section__heading">
+          <p class="section__label" data-i18n="howtoLabel">How to Start</p>
+          <h2 data-i18n="howtoTitle">3ステップですぐ始める。</h2>
+          <p class="section__lead" data-i18n="howtoLead">最初の体験は、技術的ではなく直感的であるべきです。</p>
+        </div>
+        <div class="steps">
+          <article class="step-card">
+            <span class="step-card__number">1</span>
+            <h3 data-i18n="step1Title">地図を用意</h3>
+            <p data-i18n="step1Text">使いたい高解像度の Dragon Pass や Prax 地図を準備します。</p>
+          </article>
+          <article class="step-card">
+            <span class="step-card__number">2</span>
+            <h3 data-i18n="step2Title">PNGを読み込む</h3>
+            <p data-i18n="step2Text">GloranthaGIS を開き、アプリ画面から PNG ファイルを読み込みます。</p>
+          </article>
+          <article class="step-card">
+            <span class="step-card__number">3</span>
+            <h3 data-i18n="step3Title">探索して遊ぶ</h3>
+            <p data-i18n="step3Text">ズーム、距離計測、経路比較をしながら、セッションの中でそのまま使います。</p>
+          </article>
+        </div>
+        <div class="howto-links">
+          <a class="text-link text-link--inline" href="https://note.com/mofumofu1011/n/nb00fbd6ac9d5?app_launch=false" target="_blank" rel="noreferrer" data-i18n="howtoGuideJa">完全ガイド（JP）</a>
+          <a class="text-link text-link--inline" href="https://note.com/mofumofu1011/n/nf05c11a7ed1a?app_launch=false" target="_blank" rel="noreferrer" data-i18n="howtoGuideEn">完全ガイド（EN）</a>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section__heading">
+          <p class="section__label" data-i18n="useCasesLabel">Use Cases</p>
+          <h2 data-i18n="useCasesTitle">卓で効く場面を、先に想像させる。</h2>
+          <p class="section__lead" data-i18n="useCasesLead">機能説明だけで終わらず、実際のプレイで役立つ絵が見えるようにします。</p>
+        </div>
+        <div class="usecase-grid">
+          <article class="usecase-card">
+            <h3 data-i18n="useCase1Title">Travel Planning</h3>
+            <p data-i18n="useCase1Text">今どこにいて、どこへ向かい、その旅がどれほどの意味を持つのかを共有できます。</p>
+          </article>
+          <article class="usecase-card">
+            <h3 data-i18n="useCase2Title">Route Decisions</h3>
+            <p data-i18n="useCase2Text">道、川、山脈、距離を並べて比較し、グループ全体で進路判断できます。</p>
+          </article>
+          <article class="usecase-card">
+            <h3 data-i18n="useCase3Title">Range And Area</h3>
+            <p data-i18n="useCase3Text">勢力圏、危険地帯、移動スケールを円と距離で理解できます。</p>
+          </article>
+          <article class="usecase-card">
+            <h3 data-i18n="useCase4Title">Session Immersion</h3>
+            <p data-i18n="useCase4Text">地図は背景絵ではなく、会話そのものを支える道具になります。</p>
+          </article>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="footer">
+      <div class="footer__copy">
+        <p class="section__label" data-i18n="footerLabel">RQ Adventurers' Inn</p>
+        <h2 data-i18n="footerTitle">関連情報へ戻る</h2>
+        <p data-i18n="footerText">
+          GloranthaGIS は RQ Adventurers' Inn の配布・発信の一部です。
+          他のツールや関連情報は元サイト側で案内しています。
+        </p>
+        <p class="footer__note" data-i18n="footerNote">会社概要もご案内しています</p>
+        <div class="footer__actions">
+          <a class="button button--secondary" href="https://rq-inn.com/" target="_blank" rel="noreferrer" data-i18n="footerPrimaryAction">メインサイト</a>
+          <a class="button button--ghost" href="https://rq-inn.com/company" target="_blank" rel="noreferrer" data-i18n="footerSecondaryAction">会社概要</a>
+        </div>
+      </div>
+      <div class="footer__qr">
+        <img src="images/branding/rq-inn-com-qr.png" alt="RQ Adventurers' Inn QR code">
+        <p data-i18n="footerQrText">QR からもアクセスできます</p>
+      </div>
+    </footer>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
