@@ -15,9 +15,6 @@ const translations = {
     heroText2:
       "ドラゴン・パスやプラックスは、眺める背景ではなく、卓上で判断と会話を生むプレイ空間になります。",
     heroText3: "まずはプロモーションを一巡して、そのままいつもの Adventurers' Inn へどうぞ。",
-    infoCardEyebrow: "Information",
-    infoCardTitle: "ご案内",
-    infoCardLink: "rq-inn.com / info-gis /",
     heroPrimaryAction: "アプリを開く",
     heroSecondaryAction: "動画を見る",
     heroTertiaryAction: "宿へ入る",
@@ -99,9 +96,6 @@ const translations = {
     heroText2:
       "Dragon Pass and Prax stop being background scenery and become a play space that drives decisions and conversation at the table.",
     heroText3: "Take a quick tour through the promotion, then head straight into the usual Adventurers' Inn.",
-    infoCardEyebrow: "Information",
-    infoCardTitle: "Guide",
-    infoCardLink: "rq-inn.com / info-gis /",
     heroPrimaryAction: "Open App",
     heroSecondaryAction: "Watch Demo",
     heroTertiaryAction: "Enter the Inn",
